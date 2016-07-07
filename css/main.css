@@ -69,6 +69,7 @@ h1, h2, h3 {
   font-family: 'Maax-Bold', sans-serif;
   letter-spacing: 0.02em;
   font-size: 36px;
+  margin-top: 10px;
 }
 
 strong {
