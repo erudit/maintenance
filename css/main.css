@@ -4,19 +4,43 @@
    Author's custom styles
    ========================================================================== */
 
+main {
+  margin-top: 40px;
+}
 
+hr {
+  margin: 10px 0;
+}
 
+a {
+  color: #333;
+  text-decoration: underline;
+}
 
+a:hover,
+a:focus,
+a:active {
+  color: #FF4242;
+}
 
+.navbar {
+  background-color: #F7F7F7;
+}
 
+.navbar-brand {
+  height: 75px;
+}
 
+.tagline strong {
+  color: #FF4242;
+}
 
+.social-icons {
+  margin-top: 10px;
+  display: block;
+}
 
-
-
-
-
-
-
-
-
+.social a {
+  margin-right: 10px;
+  color: #FF4242;
+}
