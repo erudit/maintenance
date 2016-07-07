@@ -81,7 +81,7 @@ em {
 }
 
 main {
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 p {
@@ -101,6 +101,16 @@ a:hover,
 a:focus,
 a:active {
   color: #FF4242;
+}
+
+::-moz-selection {
+  color: #FFF;
+  background: #FF4242;
+}
+
+::selection {
+  color: #FFF;
+  background: #FF4242;
 }
 
 .dark-color {
@@ -171,11 +181,11 @@ a:active {
   margin: 15px 0 0 0;
 }
 
-@media (max-width: 767px) {
+@media (max-width: 991px) {
     .separator {
       margin-bottom: 50px;
     }
-    .copyright {
+    .social {
       text-align: left;
       margin-top: 30px;
     }
